@@ -55,7 +55,7 @@ public class robot {
     }
 
     private static void print_robot_location(RobotLocation robot) {
-        System.out.println("Robot at (" + robot.getPosX() + ", " + robot.getPosY() + ") facing " + robot.getFaceDirection());
+        System.out.println("Robot at (" + robot.getPosX() + ", " + robot.getPosY() + ") facing " + robot.getFaceDirection().getDescription());
     }
 
     public static void move_forward(RobotLocation robot) {
